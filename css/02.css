@@ -1,0 +1,27 @@
+* {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+/* class 앞에는 .을 붙여줌 */
+.pink{
+    color:pink !important;
+}
+/* 코드 상 순서가 더 뒤에있는 클래스가 더 세다. 뒤에 !important를 쓰면 우선순위1등*/
+.blue{
+    color:blue;
+}
+/* id 앞에는 #을 붙여줌 */
+#yellowgreen { 
+    color: yellowgreen;
+}
+/* id와 class가 싸우면 id가 이김 */
+h2 {
+    color: white;
+}
+/* class가 일반선언을 이김 */
+.bold{
+    font-weight: bold;
+}
